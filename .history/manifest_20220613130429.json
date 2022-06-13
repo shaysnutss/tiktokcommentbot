@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Tiktok commentor",
+    "description": "This extension comments on tiktoks on my computer.",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "download.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/"
+    ]
+}
